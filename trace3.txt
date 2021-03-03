@@ -1,0 +1,611 @@
+[1] Play Othello
+[0] Exit
+Enter choice: [1] Vs Human
+[2] Vs AI
+[3] Go Back
+Enter choice: Would you like to be first player? Would you like to display sequences of moves considered by AI on its next turn? Would you like to enable the use of alpha-beta pruning on the AI's next turn? ['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', '-', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', '-', '-', '-']
+[6, '-', '-', '-', '-', '-', '-', '-', '-']
+[7, '-', '-', '-', '-', '-', '-', '-', '-']
+[8, '-', '-', '-', '-', '-', '-', '-', '-']
+Pieces Left: 30
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'D3') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: 33.333333333333336
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'E3') HEURISTIC VALUE: 27.272727272727273
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G3') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'C3') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F6') ->  ('Black', 'C4') HEURISTIC VALUE: -25.0
+('Black', 'E6') ->  ('White', 'F6') ->  ('Black', 'D3') HEURISTIC VALUE: -25.0
+('Black', 'E6') ->  ('White', 'F6') ->  ('Black', 'F5') HEURISTIC VALUE: 50.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C6') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C4') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C7') HEURISTIC VALUE: -9.090909090909092
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C5') HEURISTIC VALUE: 33.333333333333336
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: 0.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: 27.272727272727273
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F6') HEURISTIC VALUE: 0.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: 33.333333333333336
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F5') HEURISTIC VALUE: 0.0
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: 0.0
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F5') HEURISTIC VALUE: 0.0
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -9.090909090909092
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: 33.333333333333336
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F6') HEURISTIC VALUE: -9.090909090909092
+('Black', 'F5') ->  ('White', 'F4') ->  ('Black', 'D3') HEURISTIC VALUE: 0.0
+('Black', 'F5') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: 0.0
+('Black', 'F5') ->  ('White', 'F4') ->  ('Black', 'E3') HEURISTIC VALUE: 33.333333333333336
+('Black', 'F5') ->  ('White', 'F4') ->  ('Black', 'G3') HEURISTIC VALUE: -9.090909090909092
+('Black', 'F5') ->  ('White', 'F4') ->  ('Black', 'C3') HEURISTIC VALUE: -9.090909090909092
+STATES EXAMINED BEFORE MAKING MOVE: 37
+MOVE MADE: F5
+['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', '-', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'B', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', '-', '-', '-']
+[7, '-', '-', '-', '-', '-', '-', '-', '-']
+[8, '-', '-', '-', '-', '-', '-', '-', '-']
+Pieces Left: 30
+<White>, enter coordinate: Would you like to display sequences of moves considered by AI on its next turn? Would you like to enable the use of alpha-beta pruning on the AI's next turn? ['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', '-', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', '-', '-', '-', '-', '-']
+[8, '-', '-', '-', '-', '-', '-', '-', '-']
+Pieces Left: 29
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'D3') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: 28.571428571428573
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'E3') HEURISTIC VALUE: 20.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G3') HEURISTIC VALUE: 17.647058823529413
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G5') HEURISTIC VALUE: 20.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G7') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'C3') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G4') HEURISTIC VALUE: 28.571428571428573
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C6') HEURISTIC VALUE: 28.571428571428573
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -14.285714285714286
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: 16.666666666666668
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'G7') HEURISTIC VALUE: 0.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: 9.090909090909092
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F7') HEURISTIC VALUE: -27.272727272727273
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'D3') HEURISTIC VALUE: 20.0
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -25.0
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -28.571428571428573
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: 23.076923076923077
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'G7') HEURISTIC VALUE: -27.272727272727273
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F7') HEURISTIC VALUE: -45.45454545454545
+('Black', 'F7') ->  ('White', 'F4') ->  ('Black', 'D3') HEURISTIC VALUE: -40.0
+('Black', 'F7') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -16.666666666666668
+('Black', 'F7') ->  ('White', 'F4') ->  ('Black', 'C3') HEURISTIC VALUE: -9.090909090909092
+STATES EXAMINED BEFORE MAKING MOVE: 33
+MOVE MADE: F7
+['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', '-', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'B', '-', '-']
+[7, '-', '-', '-', '-', '-', 'B', '-', '-']
+[8, '-', '-', '-', '-', '-', '-', '-', '-']
+Pieces Left: 29
+<White>, enter coordinate: Would you like to display sequences of moves considered by AI on its next turn? Would you like to enable the use of alpha-beta pruning on the AI's next turn? ['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', '-', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', '-', '-', 'B', 'W', '-']
+[8, '-', '-', '-', '-', '-', '-', '-', '-']
+Pieces Left: 28
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'D3') HEURISTIC VALUE: -5.882352941176471
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: 25.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'E3') HEURISTIC VALUE: 15.789473684210526
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G3') HEURISTIC VALUE: 11.11111111111111
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G5') HEURISTIC VALUE: 12.5
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'H8') HEURISTIC VALUE: 7.6923076923076925
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'C3') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G4') HEURISTIC VALUE: 20.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: 11.11111111111111
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'H7') HEURISTIC VALUE: 6.666666666666667
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C6') HEURISTIC VALUE: 5.882352941176471
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C4') HEURISTIC VALUE: 9.090909090909092
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'H8') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'E7') HEURISTIC VALUE: 12.5
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C7') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C5') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C3') HEURISTIC VALUE: -11.11111111111111
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'D7') HEURISTIC VALUE: 12.5
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'H7') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'C4') HEURISTIC VALUE: -14.285714285714286
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'D3') HEURISTIC VALUE: -14.285714285714286
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'H8') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'C3') HEURISTIC VALUE: -14.285714285714286
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G6') HEURISTIC VALUE: 9.090909090909092
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G8') HEURISTIC VALUE: 27.272727272727273
+('Black', 'E6') ->  ('White', 'E7') ->  ('Black', 'C4') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'E7') ->  ('Black', 'D3') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'E7') ->  ('Black', 'H8') HEURISTIC VALUE: 14.285714285714286
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -25.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: 0.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'H8') HEURISTIC VALUE: 0.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -7.6923076923076925
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'D3') HEURISTIC VALUE: 0.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'H7') HEURISTIC VALUE: -38.46153846153846
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -40.0
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -37.5
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: 6.666666666666667
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'H8') HEURISTIC VALUE: -27.272727272727273
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'H7') HEURISTIC VALUE: -53.84615384615385
+('Black', 'H7') ->  ('White', 'F4') ->  ('Black', 'D3') HEURISTIC VALUE: -27.272727272727273
+('Black', 'H7') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -16.666666666666668
+('Black', 'H7') ->  ('White', 'F4') ->  ('Black', 'G5') HEURISTIC VALUE: -14.285714285714286
+('Black', 'H7') ->  ('White', 'F4') ->  ('Black', 'C3') HEURISTIC VALUE: -9.090909090909092
+STATES EXAMINED BEFORE MAKING MOVE: 54
+MOVE MADE: H7
+['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', '-', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', '-', '-', 'B', 'B', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', '-']
+Pieces Left: 28
+<White>, enter coordinate: Would you like to display sequences of moves considered by AI on its next turn? Would you like to enable the use of alpha-beta pruning on the AI's next turn? ['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', '-', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', '-', '-', 'B', 'W', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 27
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'D3') HEURISTIC VALUE: -25.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -14.285714285714286
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'E3') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G3') HEURISTIC VALUE: -5.882352941176471
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G5') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'C3') HEURISTIC VALUE: -20.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G4') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C6') HEURISTIC VALUE: -12.5
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C4') HEURISTIC VALUE: -20.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'E7') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C7') HEURISTIC VALUE: -15.789473684210526
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C5') HEURISTIC VALUE: -17.647058823529413
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C3') HEURISTIC VALUE: -29.41176470588235
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'D7') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'C4') HEURISTIC VALUE: -25.0
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'D3') HEURISTIC VALUE: -25.0
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'C3') HEURISTIC VALUE: -25.0
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G6') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'E7') ->  ('Black', 'C4') HEURISTIC VALUE: -9.090909090909092
+('Black', 'E6') ->  ('White', 'E7') ->  ('Black', 'D3') HEURISTIC VALUE: -9.090909090909092
+('Black', 'E6') ->  ('White', 'E7') ->  ('Black', 'C3') HEURISTIC VALUE: -9.090909090909092
+('Black', 'E6') ->  ('White', 'E7') ->  ('Black', 'F8') HEURISTIC VALUE: 23.076923076923077
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'C4') HEURISTIC VALUE: -66.66666666666667
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'D3') HEURISTIC VALUE: -66.66666666666667
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'C3') HEURISTIC VALUE: -66.66666666666667
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'G6') HEURISTIC VALUE: -11.11111111111111
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -46.666666666666664
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: -23.076923076923077
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -33.333333333333336
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'D3') HEURISTIC VALUE: -27.272727272727273
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -77.77777777777777
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -60.0
+('Black', 'D3') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: -14.285714285714286
+STATES EXAMINED BEFORE MAKING MOVE: 44
+MOVE MADE: D3
+['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', 'B', '-', '-', '-', '-']
+[4, '-', '-', '-', 'B', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', '-', '-', 'B', 'W', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 27
+<White>, enter coordinate: Would you like to display sequences of moves considered by AI on its next turn? Would you like to enable the use of alpha-beta pruning on the AI's next turn? ['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', 'B', '-', '-', '-', '-']
+[4, '-', '-', '-', 'B', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', '-', 'W', 'W', 'W', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 26
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G4') HEURISTIC VALUE: -9.090909090909092
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: 6.666666666666667
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G3') HEURISTIC VALUE: -12.5
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G5') HEURISTIC VALUE: 25.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G8') HEURISTIC VALUE: -12.5
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'E8') HEURISTIC VALUE: -23.076923076923077
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'D7') HEURISTIC VALUE: -28.571428571428573
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'G8') HEURISTIC VALUE: -9.090909090909092
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'D7') HEURISTIC VALUE: -50.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'E8') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C7') HEURISTIC VALUE: -23.076923076923077
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'F8') HEURISTIC VALUE: -17.647058823529413
+('Black', 'E6') ->  ('White', 'C3') ->  ('Black', 'B3') HEURISTIC VALUE: -20.0
+('Black', 'E6') ->  ('White', 'C3') ->  ('Black', 'C4') HEURISTIC VALUE: 6.666666666666667
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -33.333333333333336
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -29.41176470588235
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: 5.882352941176471
+('Black', 'E6') ->  ('White', 'C4') ->  ('Black', 'B5') HEURISTIC VALUE: -12.5
+('Black', 'E6') ->  ('White', 'C4') ->  ('Black', 'D6') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'F8') HEURISTIC VALUE: 14.285714285714286
+('Black', 'F8') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: 0.0
+('Black', 'F8') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -12.5
+('Black', 'F8') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: 28.571428571428573
+('Black', 'F8') ->  ('White', 'E3') ->  ('Black', 'D8') HEURISTIC VALUE: -38.46153846153846
+('Black', 'F8') ->  ('White', 'E3') ->  ('Black', 'D7') HEURISTIC VALUE: -38.46153846153846
+('Black', 'F8') ->  ('White', 'E3') ->  ('Black', 'H6') HEURISTIC VALUE: -14.285714285714286
+('Black', 'F8') ->  ('White', 'E3') ->  ('Black', 'D6') HEURISTIC VALUE: -42.857142857142854
+('Black', 'F8') ->  ('White', 'G5') ->  ('Black', 'G6') HEURISTIC VALUE: 16.666666666666668
+('Black', 'F8') ->  ('White', 'G5') ->  ('Black', 'E6') HEURISTIC VALUE: 6.666666666666667
+('Black', 'F8') ->  ('White', 'G5') ->  ('Black', 'H5') HEURISTIC VALUE: 0.0
+('Black', 'F8') ->  ('White', 'G5') ->  ('Black', 'F4') HEURISTIC VALUE: 16.666666666666668
+('Black', 'F8') ->  ('White', 'G5') ->  ('Black', 'D7') HEURISTIC VALUE: -7.6923076923076925
+('Black', 'F8') ->  ('White', 'G5') ->  ('Black', 'H6') HEURISTIC VALUE: 9.090909090909092
+('Black', 'F8') ->  ('White', 'G5') ->  ('Black', 'D6') HEURISTIC VALUE: -14.285714285714286
+('Black', 'F8') ->  ('White', 'C5') ->  ('Black', 'D6') HEURISTIC VALUE: 0.0
+('Black', 'F8') ->  ('White', 'C5') ->  ('Black', 'B6') HEURISTIC VALUE: -7.6923076923076925
+('Black', 'F8') ->  ('White', 'C5') ->  ('Black', 'E6') HEURISTIC VALUE: 12.5
+('Black', 'F8') ->  ('White', 'C5') ->  ('Black', 'C6') HEURISTIC VALUE: 23.076923076923077
+('Black', 'F8') ->  ('White', 'C3') ->  ('Black', 'B3') HEURISTIC VALUE: -14.285714285714286
+('Black', 'F8') ->  ('White', 'C3') ->  ('Black', 'E6') HEURISTIC VALUE: 14.285714285714286
+('Black', 'F8') ->  ('White', 'C3') ->  ('Black', 'C4') HEURISTIC VALUE: 33.333333333333336
+('Black', 'F8') ->  ('White', 'H6') ->  ('Black', 'E6') HEURISTIC VALUE: 14.285714285714286
+('Black', 'F8') ->  ('White', 'H6') ->  ('Black', 'D8') HEURISTIC VALUE: -66.66666666666667
+('Black', 'F8') ->  ('White', 'H6') ->  ('Black', 'D7') HEURISTIC VALUE: -66.66666666666667
+('Black', 'F8') ->  ('White', 'H6') ->  ('Black', 'D6') HEURISTIC VALUE: -50.0
+('Black', 'D7') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -60.0
+('Black', 'D7') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -50.0
+('Black', 'D7') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: -6.666666666666667
+('Black', 'D7') ->  ('White', 'E3') ->  ('Black', 'G5') HEURISTIC VALUE: -45.45454545454545
+STATES EXAMINED BEFORE MAKING MOVE: 64
+MOVE MADE: D7
+['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', '-', 'B', '-', '-', '-', '-']
+[4, '-', '-', '-', 'B', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', 'B', 'B', 'B', 'B', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 26
+<White>, enter coordinate: Would you like to display sequences of moves considered by AI on its next turn? Would you like to enable the use of alpha-beta pruning on the AI's next turn? [MOVE REJECTED] That is an illegal move. Please enter a legal move: ['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', '-', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', 'W', 'B', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', 'B', 'B', 'B', 'B', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 25
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'E1') HEURISTIC VALUE: -41.1764705882353
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'E3') HEURISTIC VALUE: -22.22222222222222
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'E6') HEURISTIC VALUE: -12.5
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'C4') HEURISTIC VALUE: -30.0
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'C2') HEURISTIC VALUE: -25.0
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'D1') HEURISTIC VALUE: -60.0
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'G5') HEURISTIC VALUE: -25.0
+('Black', 'B3') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: -28.571428571428573
+('Black', 'B3') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -50.0
+('Black', 'B3') ->  ('White', 'F4') ->  ('Black', 'G5') HEURISTIC VALUE: -50.0
+('Black', 'B3') ->  ('White', 'D6') ->  ('Black', 'E6') HEURISTIC VALUE: -20.0
+('Black', 'B3') ->  ('White', 'B2') ->  ('Black', 'B1') HEURISTIC VALUE: -57.142857142857146
+('Black', 'B3') ->  ('White', 'B2') ->  ('Black', 'E6') HEURISTIC VALUE: -28.571428571428573
+('Black', 'B3') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -46.666666666666664
+('Black', 'B3') ->  ('White', 'E3') ->  ('Black', 'G5') HEURISTIC VALUE: -81.81818181818181
+('Black', 'B3') ->  ('White', 'G5') ->  ('Black', 'G6') HEURISTIC VALUE: -33.333333333333336
+('Black', 'B3') ->  ('White', 'C5') ->  ('Black', 'D6') HEURISTIC VALUE: -14.285714285714286
+('Black', 'B3') ->  ('White', 'F8') ->  ('Black', 'E6') HEURISTIC VALUE: -33.333333333333336
+('Black', 'B3') ->  ('White', 'D8') ->  ('Black', 'E6') HEURISTIC VALUE: -45.45454545454545
+('Black', 'B3') ->  ('White', 'H6') ->  ('Black', 'E6') HEURISTIC VALUE: -40.0
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'E2') HEURISTIC VALUE: -5.882352941176471
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'C4') HEURISTIC VALUE: -12.5
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'C2') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'D2') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'B2') HEURISTIC VALUE: -17.647058823529413
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'G6') HEURISTIC VALUE: 11.11111111111111
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'G5') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'D2') ->  ('Black', 'C4') HEURISTIC VALUE: -14.285714285714286
+('Black', 'E6') ->  ('White', 'D2') ->  ('Black', 'C2') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'D2') ->  ('Black', 'D1') HEURISTIC VALUE: -16.666666666666668
+('Black', 'E6') ->  ('White', 'D2') ->  ('Black', 'B2') HEURISTIC VALUE: -20.0
+('Black', 'E6') ->  ('White', 'D2') ->  ('Black', 'G6') HEURISTIC VALUE: 14.285714285714286
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: 9.090909090909092
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'B3') HEURISTIC VALUE: -29.41176470588235
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -25.0
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'E3') HEURISTIC VALUE: -5.2631578947368425
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G3') HEURISTIC VALUE: -23.80952380952381
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G5') HEURISTIC VALUE: -28.571428571428573
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'B2') HEURISTIC VALUE: -29.41176470588235
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G4') HEURISTIC VALUE: -15.789473684210526
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'B3') HEURISTIC VALUE: -44.44444444444444
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C6') HEURISTIC VALUE: -26.31578947368421
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C4') HEURISTIC VALUE: 6.666666666666667
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C7') HEURISTIC VALUE: -30.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C5') HEURISTIC VALUE: -36.8421052631579
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'B2') HEURISTIC VALUE: -44.44444444444444
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'G5') HEURISTIC VALUE: -36.8421052631579
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'B3') HEURISTIC VALUE: -33.333333333333336
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'C4') HEURISTIC VALUE: -14.285714285714286
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'B2') HEURISTIC VALUE: -40.0
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G6') HEURISTIC VALUE: -23.076923076923077
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G8') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G5') HEURISTIC VALUE: -27.272727272727273
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'B3') HEURISTIC VALUE: -45.45454545454545
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'C4') HEURISTIC VALUE: -16.666666666666668
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'B2') HEURISTIC VALUE: -55.55555555555556
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'G6') HEURISTIC VALUE: -27.272727272727273
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'E8') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'B3') HEURISTIC VALUE: -40.0
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'C4') HEURISTIC VALUE: -16.666666666666668
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'B2') HEURISTIC VALUE: -50.0
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'G6') HEURISTIC VALUE: -40.0
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'G5') HEURISTIC VALUE: -33.333333333333336
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'C2') HEURISTIC VALUE: -23.076923076923077
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'E2') HEURISTIC VALUE: -15.789473684210526
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'D2') HEURISTIC VALUE: -20.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -18.181818181818183
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: -11.11111111111111
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'B2') HEURISTIC VALUE: -30.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -11.11111111111111
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'G5') HEURISTIC VALUE: -6.666666666666667
+('Black', 'C4') ->  ('White', 'C5') ->  ('Black', 'B5') HEURISTIC VALUE: -20.0
+('Black', 'C4') ->  ('White', 'C5') ->  ('Black', 'B3') HEURISTIC VALUE: -26.31578947368421
+('Black', 'C4') ->  ('White', 'C5') ->  ('Black', 'D6') HEURISTIC VALUE: -5.882352941176471
+('Black', 'C4') ->  ('White', 'G5') ->  ('Black', 'B3') HEURISTIC VALUE: -16.666666666666668
+('Black', 'C4') ->  ('White', 'G5') ->  ('Black', 'C2') HEURISTIC VALUE: -16.666666666666668
+('Black', 'C4') ->  ('White', 'G5') ->  ('Black', 'B2') HEURISTIC VALUE: -16.666666666666668
+('Black', 'C4') ->  ('White', 'G5') ->  ('Black', 'G6') HEURISTIC VALUE: 0.0
+('Black', 'C4') ->  ('White', 'F4') ->  ('Black', 'B3') HEURISTIC VALUE: -23.076923076923077
+('Black', 'C4') ->  ('White', 'F4') ->  ('Black', 'C2') HEURISTIC VALUE: -23.076923076923077
+('Black', 'C4') ->  ('White', 'F4') ->  ('Black', 'B2') HEURISTIC VALUE: -23.076923076923077
+('Black', 'C4') ->  ('White', 'F4') ->  ('Black', 'G4') HEURISTIC VALUE: -12.5
+('Black', 'C4') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: 0.0
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'B3') HEURISTIC VALUE: -63.63636363636363
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'C2') HEURISTIC VALUE: -63.63636363636363
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'B2') HEURISTIC VALUE: -63.63636363636363
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'E6') HEURISTIC VALUE: -14.285714285714286
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'G5') HEURISTIC VALUE: -27.272727272727273
+('Black', 'C4') ->  ('White', 'D8') ->  ('Black', 'B3') HEURISTIC VALUE: -80.0
+('Black', 'C4') ->  ('White', 'D8') ->  ('Black', 'C2') HEURISTIC VALUE: -80.0
+('Black', 'C4') ->  ('White', 'D8') ->  ('Black', 'B2') HEURISTIC VALUE: -80.0
+('Black', 'C4') ->  ('White', 'D8') ->  ('Black', 'E6') HEURISTIC VALUE: -16.666666666666668
+('Black', 'G5') ->  ('White', 'E3') ->  ('Black', 'D2') HEURISTIC VALUE: -20.0
+('Black', 'G5') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: 0.0
+('Black', 'G5') ->  ('White', 'E3') ->  ('Black', 'C2') HEURISTIC VALUE: -7.6923076923076925
+('Black', 'G5') ->  ('White', 'E3') ->  ('Black', 'B2') HEURISTIC VALUE: -20.0
+('Black', 'G5') ->  ('White', 'D2') ->  ('Black', 'E6') HEURISTIC VALUE: 0.0
+('Black', 'G5') ->  ('White', 'F4') ->  ('Black', 'B3') HEURISTIC VALUE: -66.66666666666667
+('Black', 'G5') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -23.076923076923077
+('Black', 'G5') ->  ('White', 'F4') ->  ('Black', 'E3') HEURISTIC VALUE: -30.0
+('Black', 'G5') ->  ('White', 'F4') ->  ('Black', 'B2') HEURISTIC VALUE: -38.46153846153846
+STATES EXAMINED BEFORE MAKING MOVE: 133
+MOVE MADE: B2
+['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, '-', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', 'B', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', 'B', 'B', '-', '-', '-', '-']
+[4, '-', '-', '-', 'B', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'B', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'B', '-', '-']
+[7, '-', '-', '-', 'B', 'B', 'B', 'B', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 25
+<White>, enter coordinate: Would you like to display sequences of moves considered by AI on its next turn? Would you like to enable the use of alpha-beta pruning on the AI's next turn? ['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, 'W', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', 'W', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', 'W', 'B', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', '-', '-']
+[6, '-', '-', '-', '-', '-', 'W', '-', '-']
+[7, '-', '-', '-', 'B', 'B', 'B', 'W', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 24
+('Black', 'B3') ->  ('White', 'B4') ->  ('Black', 'A5') HEURISTIC VALUE: -37.5
+('Black', 'B3') ->  ('White', 'B4') ->  ('Black', 'A3') HEURISTIC VALUE: -11.11111111111111
+('Black', 'B3') ->  ('White', 'B4') ->  ('Black', 'E6') HEURISTIC VALUE: -23.076923076923077
+('Black', 'B3') ->  ('White', 'B4') ->  ('Black', 'C4') HEURISTIC VALUE: -25.0
+('Black', 'B3') ->  ('White', 'B4') ->  ('Black', 'G5') HEURISTIC VALUE: -33.333333333333336
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'B1') HEURISTIC VALUE: -30.0
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'E1') HEURISTIC VALUE: -36.8421052631579
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'E3') HEURISTIC VALUE: -15.789473684210526
+('Black', 'B3') ->  ('White', 'D2') ->  ('Black', 'E6') HEURISTIC VALUE: -5.882352941176471
+('Black', 'B3') ->  ('White', 'F4') ->  ('Black', 'B1') HEURISTIC VALUE: -53.84615384615385
+('Black', 'B3') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: -17.647058823529413
+('Black', 'B3') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -42.857142857142854
+('Black', 'B3') ->  ('White', 'F4') ->  ('Black', 'G5') HEURISTIC VALUE: -42.857142857142854
+('Black', 'B3') ->  ('White', 'D6') ->  ('Black', 'B1') HEURISTIC VALUE: -33.333333333333336
+('Black', 'B3') ->  ('White', 'D6') ->  ('Black', 'E6') HEURISTIC VALUE: -17.647058823529413
+('Black', 'B3') ->  ('White', 'E3') ->  ('Black', 'B1') HEURISTIC VALUE: -75.0
+('Black', 'B3') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -41.1764705882353
+('Black', 'B3') ->  ('White', 'E3') ->  ('Black', 'G5') HEURISTIC VALUE: -69.23076923076923
+('Black', 'B3') ->  ('White', 'G5') ->  ('Black', 'B1') HEURISTIC VALUE: -29.41176470588235
+('Black', 'B3') ->  ('White', 'C5') ->  ('Black', 'B1') HEURISTIC VALUE: -25.0
+('Black', 'B3') ->  ('White', 'F8') ->  ('Black', 'B1') HEURISTIC VALUE: -53.84615384615385
+('Black', 'B3') ->  ('White', 'F8') ->  ('Black', 'E6') HEURISTIC VALUE: -23.076923076923077
+('Black', 'B3') ->  ('White', 'D8') ->  ('Black', 'B1') HEURISTIC VALUE: -66.66666666666667
+('Black', 'B3') ->  ('White', 'D8') ->  ('Black', 'E6') HEURISTIC VALUE: -33.333333333333336
+('Black', 'B3') ->  ('White', 'C7') ->  ('Black', 'B1') HEURISTIC VALUE: -33.333333333333336
+('Black', 'B3') ->  ('White', 'H6') ->  ('Black', 'B1') HEURISTIC VALUE: -53.84615384615385
+('Black', 'B3') ->  ('White', 'H6') ->  ('Black', 'E6') HEURISTIC VALUE: -27.272727272727273
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'E2') HEURISTIC VALUE: -17.647058823529413
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'C4') HEURISTIC VALUE: -25.0
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'C2') HEURISTIC VALUE: -12.5
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'D2') HEURISTIC VALUE: -11.11111111111111
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'G6') HEURISTIC VALUE: -9.090909090909092
+('Black', 'E6') ->  ('White', 'E3') ->  ('Black', 'G5') HEURISTIC VALUE: -20.0
+('Black', 'E6') ->  ('White', 'D2') ->  ('Black', 'C4') HEURISTIC VALUE: -28.571428571428573
+('Black', 'E6') ->  ('White', 'D2') ->  ('Black', 'C2') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'F4') ->  ('Black', 'G6') HEURISTIC VALUE: -7.6923076923076925
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'B3') HEURISTIC VALUE: -40.0
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C6') HEURISTIC VALUE: -36.8421052631579
+('Black', 'E6') ->  ('White', 'D6') ->  ('Black', 'C4') HEURISTIC VALUE: -6.666666666666667
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'B3') HEURISTIC VALUE: -23.076923076923077
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'C4') HEURISTIC VALUE: -23.076923076923077
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G6') HEURISTIC VALUE: -38.46153846153846
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G8') HEURISTIC VALUE: -16.666666666666668
+('Black', 'E6') ->  ('White', 'F8') ->  ('Black', 'G5') HEURISTIC VALUE: -40.0
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'B3') HEURISTIC VALUE: -33.333333333333336
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'C4') HEURISTIC VALUE: -27.272727272727273
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'G6') HEURISTIC VALUE: -27.272727272727273
+('Black', 'E6') ->  ('White', 'D8') ->  ('Black', 'E8') HEURISTIC VALUE: -16.666666666666668
+('Black', 'E6') ->  ('White', 'C7') ->  ('Black', 'B3') HEURISTIC VALUE: 0.0
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'B3') HEURISTIC VALUE: -27.272727272727273
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'C4') HEURISTIC VALUE: -27.272727272727273
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'G6') HEURISTIC VALUE: -40.0
+('Black', 'E6') ->  ('White', 'H6') ->  ('Black', 'G5') HEURISTIC VALUE: -42.857142857142854
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'C2') HEURISTIC VALUE: -20.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'E2') HEURISTIC VALUE: -26.31578947368421
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'D2') HEURISTIC VALUE: -30.0
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F2') HEURISTIC VALUE: -27.272727272727273
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F4') HEURISTIC VALUE: -22.22222222222222
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -22.22222222222222
+('Black', 'C4') ->  ('White', 'E3') ->  ('Black', 'G5') HEURISTIC VALUE: -20.0
+('Black', 'C4') ->  ('White', 'C5') ->  ('Black', 'B5') HEURISTIC VALUE: -40.0
+('Black', 'C4') ->  ('White', 'C5') ->  ('Black', 'B3') HEURISTIC VALUE: -23.80952380952381
+('Black', 'C4') ->  ('White', 'C5') ->  ('Black', 'D6') HEURISTIC VALUE: -12.5
+('Black', 'C4') ->  ('White', 'G5') ->  ('Black', 'B3') HEURISTIC VALUE: -14.285714285714286
+('Black', 'C4') ->  ('White', 'F4') ->  ('Black', 'B3') HEURISTIC VALUE: -14.285714285714286
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'B3') HEURISTIC VALUE: -50.0
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'C2') HEURISTIC VALUE: -50.0
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'E6') HEURISTIC VALUE: -23.076923076923077
+('Black', 'C4') ->  ('White', 'F8') ->  ('Black', 'G5') HEURISTIC VALUE: -40.0
+('Black', 'C4') ->  ('White', 'D8') ->  ('Black', 'B3') HEURISTIC VALUE: -63.63636363636363
+('Black', 'C4') ->  ('White', 'D8') ->  ('Black', 'C2') HEURISTIC VALUE: -63.63636363636363
+('Black', 'C4') ->  ('White', 'D8') ->  ('Black', 'E6') HEURISTIC VALUE: -27.272727272727273
+('Black', 'G5') ->  ('White', 'E3') ->  ('Black', 'D2') HEURISTIC VALUE: -33.333333333333336
+('Black', 'G5') ->  ('White', 'E3') ->  ('Black', 'F3') HEURISTIC VALUE: -14.285714285714286
+('Black', 'G5') ->  ('White', 'E3') ->  ('Black', 'C2') HEURISTIC VALUE: -14.285714285714286
+('Black', 'G5') ->  ('White', 'D2') ->  ('Black', 'E6') HEURISTIC VALUE: -25.0
+('Black', 'G5') ->  ('White', 'D2') ->  ('Black', 'C4') HEURISTIC VALUE: -33.333333333333336
+('Black', 'G5') ->  ('White', 'D2') ->  ('Black', 'C2') HEURISTIC VALUE: -14.285714285714286
+('Black', 'G5') ->  ('White', 'F4') ->  ('Black', 'B3') HEURISTIC VALUE: -57.142857142857146
+('Black', 'G5') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -38.46153846153846
+('Black', 'G5') ->  ('White', 'F4') ->  ('Black', 'E3') HEURISTIC VALUE: -40.0
+STATES EXAMINED BEFORE MAKING MOVE: 113
+MOVE MADE: G5
+['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, 'W', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', 'W', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', 'W', 'B', '-', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', 'B', '-']
+[6, '-', '-', '-', '-', '-', 'B', '-', '-']
+[7, '-', '-', '-', 'B', 'B', 'B', 'W', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 24
+<White>, enter coordinate: Would you like to display sequences of moves considered by AI on its next turn? Would you like to enable the use of alpha-beta pruning on the AI's next turn? ['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, 'W', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', 'W', '-', '-', '-', '-', '-', '-']
+[3, '-', '-', 'W', 'W', 'W', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'W', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', 'B', '-']
+[6, '-', '-', '-', '-', '-', 'B', '-', '-']
+[7, '-', '-', '-', 'B', 'B', 'B', 'W', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 23
+('Black', 'D2') ->  ('White', 'E1') ->  ('Black', 'D1') HEURISTIC VALUE: -20.0
+('Black', 'D2') ->  ('White', 'E1') ->  ('Black', 'F3') HEURISTIC VALUE: -33.333333333333336
+('Black', 'D2') ->  ('White', 'E1') ->  ('Black', 'B3') HEURISTIC VALUE: -37.5
+('Black', 'D2') ->  ('White', 'E1') ->  ('Black', 'F2') HEURISTIC VALUE: -36.8421052631579
+('Black', 'D2') ->  ('White', 'E1') ->  ('Black', 'F4') HEURISTIC VALUE: 14.285714285714286
+('Black', 'D2') ->  ('White', 'C5') ->  ('Black', 'F4') HEURISTIC VALUE: -26.31578947368421
+('Black', 'D2') ->  ('White', 'C5') ->  ('Black', 'B4') HEURISTIC VALUE: -38.46153846153846
+('Black', 'D2') ->  ('White', 'C5') ->  ('Black', 'F3') HEURISTIC VALUE: -22.22222222222222
+('Black', 'D2') ->  ('White', 'C5') ->  ('Black', 'D6') HEURISTIC VALUE: -17.647058823529413
+('Black', 'D2') ->  ('White', 'C5') ->  ('Black', 'B3') HEURISTIC VALUE: -28.571428571428573
+('Black', 'D2') ->  ('White', 'C5') ->  ('Black', 'B5') HEURISTIC VALUE: -29.41176470588235
+('Black', 'D2') ->  ('White', 'C1') ->  ('Black', 'D1') HEURISTIC VALUE: -20.0
+('Black', 'D2') ->  ('White', 'C1') ->  ('Black', 'F3') HEURISTIC VALUE: -45.45454545454545
+('Black', 'D2') ->  ('White', 'C1') ->  ('Black', 'B3') HEURISTIC VALUE: -29.41176470588235
+('Black', 'D2') ->  ('White', 'C1') ->  ('Black', 'F2') HEURISTIC VALUE: -41.1764705882353
+('Black', 'D2') ->  ('White', 'C1') ->  ('Black', 'F4') HEURISTIC VALUE: 7.6923076923076925
+('Black', 'D2') ->  ('White', 'G6') ->  ('Black', 'F4') HEURISTIC VALUE: -26.31578947368421
+('Black', 'D2') ->  ('White', 'G6') ->  ('Black', 'B4') HEURISTIC VALUE: -36.8421052631579
+('Black', 'D2') ->  ('White', 'G6') ->  ('Black', 'F3') HEURISTIC VALUE: -26.31578947368421
+('Black', 'D2') ->  ('White', 'G6') ->  ('Black', 'B3') HEURISTIC VALUE: -33.333333333333336
+('Black', 'D2') ->  ('White', 'G6') ->  ('Black', 'F2') HEURISTIC VALUE: -27.272727272727273
+('Black', 'D2') ->  ('White', 'G6') ->  ('Black', 'G8') HEURISTIC VALUE: -28.571428571428573
+('Black', 'D2') ->  ('White', 'G6') ->  ('Black', 'H6') HEURISTIC VALUE: -17.647058823529413
+('Black', 'D2') ->  ('White', 'C6') ->  ('Black', 'F4') HEURISTIC VALUE: -12.5
+('Black', 'D2') ->  ('White', 'C4') ->  ('Black', 'F4') HEURISTIC VALUE: -39.130434782608695
+('Black', 'D2') ->  ('White', 'C4') ->  ('Black', 'B4') HEURISTIC VALUE: -47.36842105263158
+('Black', 'D2') ->  ('White', 'C4') ->  ('Black', 'F3') HEURISTIC VALUE: -41.1764705882353
+('Black', 'D2') ->  ('White', 'C4') ->  ('Black', 'B5') HEURISTIC VALUE: -41.1764705882353
+('Black', 'D2') ->  ('White', 'C4') ->  ('Black', 'B3') HEURISTIC VALUE: -60.0
+('Black', 'D2') ->  ('White', 'C2') ->  ('Black', 'F4') HEURISTIC VALUE: -29.41176470588235
+('Black', 'D2') ->  ('White', 'H5') ->  ('Black', 'F4') HEURISTIC VALUE: -20.0
+('Black', 'D2') ->  ('White', 'C7') ->  ('Black', 'F4') HEURISTIC VALUE: -6.666666666666667
+('Black', 'D2') ->  ('White', 'H6') ->  ('Black', 'F4') HEURISTIC VALUE: -33.333333333333336
+('Black', 'F3') ->  ('White', 'G6') ->  ('Black', 'B3') HEURISTIC VALUE: -39.130434782608695
+('Black', 'F3') ->  ('White', 'G6') ->  ('Black', 'D2') HEURISTIC VALUE: -36.36363636363637
+('Black', 'F3') ->  ('White', 'G6') ->  ('Black', 'G8') HEURISTIC VALUE: -33.333333333333336
+('Black', 'F3') ->  ('White', 'G6') ->  ('Black', 'F4') HEURISTIC VALUE: -15.789473684210526
+('Black', 'F3') ->  ('White', 'G6') ->  ('Black', 'H6') HEURISTIC VALUE: -20.0
+('Black', 'F3') ->  ('White', 'G6') ->  ('Black', 'H5') HEURISTIC VALUE: -28.571428571428573
+('Black', 'F3') ->  ('White', 'G6') ->  ('Black', 'C2') HEURISTIC VALUE: -25.0
+('Black', 'F3') ->  ('White', 'G3') ->  ('Black', 'E2') HEURISTIC VALUE: -14.285714285714286
+('Black', 'F3') ->  ('White', 'F4') ->  ('Black', 'B3') HEURISTIC VALUE: -64.70588235294117
+('Black', 'F3') ->  ('White', 'F4') ->  ('Black', 'D2') HEURISTIC VALUE: -52.94117647058823
+('Black', 'F3') ->  ('White', 'F4') ->  ('Black', 'C2') HEURISTIC VALUE: -17.647058823529413
+('Black', 'F3') ->  ('White', 'D6') ->  ('Black', 'B3') HEURISTIC VALUE: -37.5
+('Black', 'F3') ->  ('White', 'D6') ->  ('Black', 'E2') HEURISTIC VALUE: -26.31578947368421
+('Black', 'F3') ->  ('White', 'D6') ->  ('Black', 'E6') HEURISTIC VALUE: -15.789473684210526
+('Black', 'F3') ->  ('White', 'H5') ->  ('Black', 'B3') HEURISTIC VALUE: -26.31578947368421
+('Black', 'F3') ->  ('White', 'H5') ->  ('Black', 'E2') HEURISTIC VALUE: -10.0
+('Black', 'F3') ->  ('White', 'C5') ->  ('Black', 'B3') HEURISTIC VALUE: -12.5
+('Black', 'F3') ->  ('White', 'C7') ->  ('Black', 'B3') HEURISTIC VALUE: -17.647058823529413
+('Black', 'F3') ->  ('White', 'H6') ->  ('Black', 'B3') HEURISTIC VALUE: -38.46153846153846
+('Black', 'F3') ->  ('White', 'H6') ->  ('Black', 'E2') HEURISTIC VALUE: -25.0
+('Black', 'F3') ->  ('White', 'H6') ->  ('Black', 'E6') HEURISTIC VALUE: -9.090909090909092
+('Black', 'C2') ->  ('White', 'D2') ->  ('Black', 'E2') HEURISTIC VALUE: -15.789473684210526
+('Black', 'C2') ->  ('White', 'D2') ->  ('Black', 'E6') HEURISTIC VALUE: -20.0
+('Black', 'C2') ->  ('White', 'D2') ->  ('Black', 'C4') HEURISTIC VALUE: -7.6923076923076925
+('Black', 'C2') ->  ('White', 'D2') ->  ('Black', 'B1') HEURISTIC VALUE: 0.0
+('Black', 'C2') ->  ('White', 'D2') ->  ('Black', 'D1') HEURISTIC VALUE: 5.882352941176471
+('Black', 'C2') ->  ('White', 'C1') ->  ('Black', 'F3') HEURISTIC VALUE: -37.5
+('Black', 'C2') ->  ('White', 'C1') ->  ('Black', 'B3') HEURISTIC VALUE: -33.333333333333336
+('Black', 'C2') ->  ('White', 'C1') ->  ('Black', 'B1') HEURISTIC VALUE: 0.0
+('Black', 'C2') ->  ('White', 'C1') ->  ('Black', 'E2') HEURISTIC VALUE: -37.5
+('Black', 'C2') ->  ('White', 'C1') ->  ('Black', 'E6') HEURISTIC VALUE: -16.666666666666668
+('Black', 'C2') ->  ('White', 'C1') ->  ('Black', 'C4') HEURISTIC VALUE: 9.090909090909092
+('Black', 'C2') ->  ('White', 'F4') ->  ('Black', 'C4') HEURISTIC VALUE: -50.0
+('Black', 'C2') ->  ('White', 'F4') ->  ('Black', 'A2') HEURISTIC VALUE: -50.0
+('Black', 'C2') ->  ('White', 'F4') ->  ('Black', 'F3') HEURISTIC VALUE: -29.41176470588235
+('Black', 'C2') ->  ('White', 'F4') ->  ('Black', 'B3') HEURISTIC VALUE: -50.0
+('Black', 'C2') ->  ('White', 'F4') ->  ('Black', 'D2') HEURISTIC VALUE: -33.333333333333336
+STATES EXAMINED BEFORE MAKING MOVE: 94
+MOVE MADE: C2
+['', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
+[1, 'W', '-', '-', '-', '-', '-', '-', '-']
+[2, '-', 'W', 'B', '-', '-', '-', '-', '-']
+[3, '-', '-', 'W', 'B', 'W', '-', '-', '-']
+[4, '-', '-', '-', 'W', 'B', '-', '-', '-']
+[5, '-', '-', '-', 'B', 'W', 'B', 'B', '-']
+[6, '-', '-', '-', '-', '-', 'B', '-', '-']
+[7, '-', '-', '-', 'B', 'B', 'B', 'W', 'B']
+[8, '-', '-', '-', '-', '-', '-', '-', 'W']
+Pieces Left: 23
+<White>, enter coordinate: 
